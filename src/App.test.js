@@ -17,7 +17,7 @@ describe('Probando App component', () => {
 
   test('render component with enzyme', () => {
     const wrapper = shallow(<App></App>);
-    expect(wrapper.html()).toBe(`<div class="App"><p>Edit <code>src/App.js</code> and save to reload.</p><a class="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">Learn React</a></div>`)
+    expect(wrapper.html()).toBe(`<div class="App"><p>Edit <code>src/App.js</code> and save to reload.</p><a class="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">Learn React</a></div><div><button>Incrementar</button><button>Disminuir</button><h1>0</h1></div>`)
     expect(wrapper.find('code').html()).toBe('<code>src/App.js</code>');
   });
 })

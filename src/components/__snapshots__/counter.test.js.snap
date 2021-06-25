@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas de Contador validar el renderizado con snapshot 1`] = `
+<div>
+  <button
+    onClick={[Function]}
+  >
+    Incrementar
+  </button>
+  <button
+    onClick={[Function]}
+  >
+    Disminuir
+  </button>
+  <h1>
+    0
+  </h1>
+</div>
+`;
