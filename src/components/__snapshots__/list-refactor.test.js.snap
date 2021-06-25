@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Probando List component probar nodos con snapshot 1`] = `"<div><h1 class=\\"new\\">Frutas</h1><ul><li>Fresa</li><li>Sandilla</li><li>Naranja</li></ul></div>"`;
+
+exports[`Probando List component probar nodos con snapshot using toJson 1`] = `
+<div>
+  <h1
+    className="new"
+  >
+    Frutas
+  </h1>
+  <ul>
+    <li
+      key="1"
+    >
+      Fresa
+    </li>
+    <li
+      key="2"
+    >
+      Sandilla
+    </li>
+    <li
+      key="3"
+    >
+      Naranja
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Probando List-Refactor component probar nodos con snapshot 1`] = `"<div><h1 class=\\"new\\">Frutas</h1><ul><li>Fresa</li><li>Sandilla</li><li>Naranja</li></ul></div>"`;
+
+exports[`Probando List-Refactor component probar nodos con snapshot using toJson 1`] = `
+<div>
+  <h1
+    className="new"
+  >
+    Frutas
+  </h1>
+  <ul>
+    <li
+      key="1"
+    >
+      Fresa
+    </li>
+    <li
+      key="2"
+    >
+      Sandilla
+    </li>
+    <li
+      key="3"
+    >
+      Naranja
+    </li>
+  </ul>
+</div>
+`;
